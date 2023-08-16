@@ -15,6 +15,7 @@ session.mount('http://', adapter)
 session.mount('https://', adapter)
 
 os.system("chmod 777 video")
+os.system("git pull")
 cetak(nel('[red]Masukan Link Video dari Tiktok',width=70,padding=(0,7)))
 linkvidtt = input('>>> ')
 with open('link.txt', "a") as peler:
